@@ -1,0 +1,9 @@
+init_admin_user:
+  username: "test01"
+  password: "123456"
+
+init_sql:
+  select_user: "SELECT * FROM user WHERE username = 'admin'"
+  insert_delete_user: "INSERT INTO user (username, password,role,telephone) VALUES ('777', '123456', '1', '13500010001')"
+  delete_register_user: "DELETE FROM user WHERE username = '测试test'"
+  update_user_telephone: "UPDATE user SET telephone = '13500010004' WHERE id = 4"

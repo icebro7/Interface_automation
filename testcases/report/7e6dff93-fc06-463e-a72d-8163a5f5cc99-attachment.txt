@@ -1,0 +1,21 @@
+[32mINFO    [0m my_logger:test_01_login.py:30 *************** 开始执行用例 ***************
+[32mINFO    [0m my_logger:read_data.py:21 加载 C:\Users\98680\Desktop\项目代码\Interface_automation\data\yaml\api_config_fast.yml 文件......
+[32mINFO    [0m my_logger:read_data.py:24 读到数据 ==>>  {'host': 'http://localhost:9999', 'login': {'name': '【登陆】用户名登陆', 'method': 'Post', 'url': '/api/v1/base/access_token', 'headers': {'accept': 'application/json', 'Content-Type': 'application/json'}, 'data': {'password': '123456', 'username': 'admin'}}, 'get_user_info': {'name': '【获取用户信息】', 'method': 'Get', 'url': '/api/v1/base/userinfo', 'headers': {'accept': 'application/json'}}, 'create_user': {'name': '【创建用户】', 'method': 'Post', 'url': '/api/v1/user/create', 'headers': {'accept': 'application/json', 'Content-Type': 'application/json'}, 'data': {'email': '7878@qq.com', 'username': '666', 'password': '123456', 'is_active': 'true', 'is_superuser': 'false', 'role_ids': [], 'dept_id': 0}}} 
+[32mINFO    [0m my_logger:rest_client.py:52 接口请求地址 ==>> http://localhost:9999/api/v1/base/access_token
+[32mINFO    [0m my_logger:rest_client.py:53 接口请求方式 ==>> POST
+[32mINFO    [0m my_logger:rest_client.py:54 接口请求头 ==>> {
+    "accept": "application/json",
+    "Content-Type": "application/json"
+}
+[32mINFO    [0m my_logger:rest_client.py:55 接口请求 params 参数 ==>> null
+[32mINFO    [0m my_logger:rest_client.py:56 接口请求体 data 参数 ==>> null
+[32mINFO    [0m my_logger:rest_client.py:57 接口请求体 json 参数 ==>> {
+    "username": "admin",
+    "password": "123456"
+}
+[32mINFO    [0m my_logger:rest_client.py:58 接口上传附件 files 参数 ==>> None
+[32mINFO    [0m my_logger:rest_client.py:59 接口 cookies 参数 ==>> null
+[32mINFO    [0m my_logger:fastweb.py:31 登录用户 ==>> 返回结果 ==>> {"code":200,"msg":"OK","data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwiaXNfc3VwZXJ1c2VyIjp0cnVlLCJleHAiOjE3MzU0OTE5NDl9.vCpAbKq2OqgWdxqJ30cgiu68QYyDu_BtS1tqM6ThRM4","username":"admin"}}
+[32mINFO    [0m my_logger:test_01_login.py:16 步骤1 ==>> 登录用户：admin
+[32mINFO    [0m my_logger:test_01_login.py:36 code ==>> 期望结果：200， 实际结果：【 200 】
+[32mINFO    [0m my_logger:test_01_login.py:38 *************** 结束执行用例 ***************

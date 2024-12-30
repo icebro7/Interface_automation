@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 29 22:17:47 CST 2024","Sun Dec 29 22:17:49 CST 2024","2116","testcases.api_test","test_01_login","TestUserLogin","","","test_login_user[admin-123456-True-200-OK]","该用例是针对获取用户登录接口的测试"
+"passed","Sun Dec 29 22:17:49 CST 2024","Sun Dec 29 22:17:49 CST 2024","64","testcases.api_test","test_01_login","TestUserLogin","","","test_login_user[admin-1234567-False-400-密码错误!]","该用例是针对获取用户登录接口的测试"
+"passed","Sun Dec 29 22:17:49 CST 2024","Sun Dec 29 22:17:49 CST 2024","10","testcases.api_test","test_01_login","TestUserLogin","","","test_login_user[测试test-123456-False-400-无效的用户名]","该用例是针对获取用户登录接口的测试"
+"passed","Sun Dec 29 22:17:49 CST 2024","Sun Dec 29 22:17:50 CST 2024","30","testcases.api_test","test_01_login","TestUserLogin","","","test_login_user[测试test-1234567-False-400-无效的用户名]","该用例是针对获取用户登录接口的测试"

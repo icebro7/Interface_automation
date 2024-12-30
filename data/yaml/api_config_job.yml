@@ -1,0 +1,38 @@
+# fileName: api_config_job.yml
+
+host: http://8.217.176.196:8888
+
+login_phone:
+  name: 【登陆】用户名登陆
+  method: Post
+  url: /JobSys-1.0-SNAPSHOT/login
+  headers:
+    "Content-Type": "application/x-www-form-urlencoded"
+    "Authorization": "Bearer JJu5M232jSgulakFKqCL6IECPflvjQVL"
+  data:
+    userName: 7777
+    userPass: 123456
+
+
+seach_job:
+  name: 【查询】查询岗位
+  method: Post
+  url: /JobSys-1.0-SNAPSHOT/searchJob
+  headers:
+    "Content-Type": "application/x-www-form-urlencoded"
+    "Authorization": "Bearer JJu5M232jSgulakFKqCL6IECPflvjQVL"
+  data:
+    jobName: python
+    jobXlyq: 本科
+    salaryRange: 10k-20k
+
+
+resume:
+  name: 【简历】查看简历
+  method: Get
+  url: /JobSys-1.0-SNAPSHOT/resumes
+  headers:
+    "Content-Type": "application/x-www-form-urlencoded"
+    "Authorization": "Bearer JJu5M232jSgulakFKqCL6IECPflvjQVL"
+  expected:
+    success: true
